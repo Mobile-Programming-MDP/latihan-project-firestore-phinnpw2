@@ -7,13 +7,13 @@ import 'package:flutter/foundation.dart'
 /// Default [FirebaseOptions] for use with your Firebase apps.
 ///
 /// Example:
-/// ```dart
+/// dart
 /// import 'firebase_options.dart';
 /// // ...
 /// await Firebase.initializeApp(
 ///   options: DefaultFirebaseOptions.currentPlatform,
 /// );
-/// ```
+///
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
@@ -41,21 +41,21 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCbn2-hp3ztFI7N2a3ieFrX5i2M1NBWGOY',
-    appId: '1:176285058291:web:4128778c4ba4727cb7e386',
-    messagingSenderId: '176285058291',
-    projectId: 'notes-d283c',
-    authDomain: 'notes-d283c.firebaseapp.com',
-    storageBucket: 'notes-d283c.appspot.com',
-    measurementId: 'G-52L2JHPM4D',
+    apiKey: 'AIzaSyDLT6hZhHVbeiD59pFLQJ6WDig48CUKBIw',
+    appId: '1:488978448735:web:0ad6265f236a6d791d76ea',
+    messagingSenderId: '488978448735',
+    projectId: 'notes-db433',
+    authDomain: 'notes-db433.firebaseapp.com',
+    storageBucket: 'notes-db433.appspot.com',
+    measurementId: 'G-V8B373E9QW',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyD2LhaLe6UIoFwO0rznJ_D8qyKQJLUir-A',
-    appId: '1:176285058291:android:50d9dc72cb92e479b7e386',
-    messagingSenderId: '176285058291',
-    projectId: 'notes-d283c',
-    storageBucket: 'notes-d283c.appspot.com',
+    apiKey: 'AIzaSyDLb9C-g0t4Ao4oJSMaAsOubylkzW_zPiA',
+    appId: '1:488978448735:android:cb607cf3f747a1c31d76ea',
+    messagingSenderId: '488978448735',
+    projectId: 'notes-db433',
+    storageBucket: 'notes-db433.appspot.com',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
@@ -85,5 +85,4 @@ class DefaultFirebaseOptions {
     storageBucket: 'notes-d283c.appspot.com',
     measurementId: 'G-390MN38RD9',
   );
-
 }
